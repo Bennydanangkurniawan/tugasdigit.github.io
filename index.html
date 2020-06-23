@@ -1,0 +1,624 @@
+ <style media="screen">
+
+ /html>
+
+
+h2{
+font-family: sans-serif;
+font-weight: normal;
+}
+
+.malasngoding-slider {
+border: 10px solid #efefef;
+position: relative;
+overflow: hidden;
+background: #efefef;
+}
+
+.malasngoding-slider {
+margin:20px auto;
+width: 768px;
+height: 450px;
+}
+
+.isi-slider img {
+width: 768px;
+height: 450px;
+float: left;
+}
+
+.isi-slider {
+position: absolute;
+width:3900px;
+
+/*pengaturan durasi lama tampil gambar bisa di atur di bawah ini*/
+animation-name:slider;
+animation-duration:16s;
+animation-timing-function: ease-in-out;
+animation-iteration-count:infinite;
+-webkit-animation-name:slider;
+-webkit-animation-duration:16s;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count:infinite;
+-moz-animation-name:slider;
+-moz-animation-duration:16s;
+-moz-animation-timing-function: ease-in-out;
+-moz-animation-iteration-count:infinite;
+-o-animation-name:slider;
+-o-animation-duration:16s;
+-o-animation-timing-function: ease-in-out;
+-o-animation-iteration-count:infinite;
+}
+
+
+/*saat gambar di hover oleh cursor mouse maka berhenti slide*/
+.isi-slider:hover {
+-webkit-animation-play-state:paused;
+-moz-animation-play-state:paused;
+-o-animation-play-state:paused;
+animation-play-state:paused; }
+}
+
+.isi-slider img {
+float: right;
+}
+
+.malasngoding-slider:after {
+font-size: 150px;
+position: absolute;
+z-index: 12;
+color: rgba(255,255,255, 0);
+left: 300px; top: 80px;
+-webkit-transition: 1s all ease-in-out;
+-moz-transition: 1s all ease-in-out;
+transition: 1s all ease-in-out;
+}
+
+.malasngoding-slider:hover:after {
+color: rgba(255,255,255, 0.6);
+}
+
+
+
+@-moz-keyframes slider {
+0% {
+  left: 0; opacity: 0;
+}
+2% {
+  opacity: 1;
+}
+20% {
+  left: 0; opacity: 1;
+}
+21% {
+  opacity: 0;
+}
+24% {
+  opacity: 0;
+}
+25% {
+  left: -768px; opacity: 1;
+}
+45% {
+  left: -768px; opacity: 1;
+}
+46% {
+  opacity: 0;
+}
+48% {
+  opacity: 0;
+}
+50% {
+  left: -1536px; opacity: 1;
+}
+70% {
+  left: -1536px; opacity: 1;
+}
+72% {
+  opacity: 0;
+}
+74% {
+  opacity: 0;
+}
+75% {
+  left: -2304px; opacity: 1;
+}
+95% {
+  left: -2304px; opacity: 1;
+}
+97% {
+  left: -2304px; opacity: 0;
+}
+100% {
+  left: 0; opacity: 0;
+}
+}
+
+@-webkit-keyframes slider {
+0% {
+  left: 0; opacity: 0;
+}
+2% {
+  opacity: 1;
+}
+20% {
+  left: 0; opacity: 1;
+}
+21% {
+  opacity: 0;
+}
+24% {
+  opacity: 0;
+}
+25% {
+  left: -768px; opacity: 1;
+}
+45% {
+  left: -768px; opacity: 1;
+}
+46% {
+  opacity: 0;
+}
+48% {
+  opacity: 0;
+}
+50% {
+  left: -1536px; opacity: 1;
+}
+70% {
+  left: -1536px; opacity: 1;
+}
+72% {
+  opacity: 0;
+}
+74% {
+  opacity: 0;
+}
+75% {
+  left: -2304px; opacity: 1;
+}
+95% {
+  left: -2304px; opacity: 1;
+}
+97% {
+  left: -2304px; opacity: 0;
+}
+100% {
+  left: 0; opacity: 0;
+}
+}
+
+
+@keyframes slider {
+0% {
+  left: 0; opacity: 0;
+}
+2% {
+  opacity: 1;
+}
+20% {
+  left: 0; opacity: 1;
+}
+21% {
+  opacity: 0;
+}
+24% {
+  opacity: 0;
+}
+25% {
+  left: -768px; opacity: 1;
+}
+45% {
+  left: -768px; opacity: 1;
+}
+46% {
+  opacity: 0;
+}
+48% {
+  opacity: 0;
+}
+50% {
+  left: -1536px; opacity: 1;
+}
+70% {
+  left: -1536px; opacity: 1;
+}
+72% {
+  opacity: 0;
+}
+74% {
+  opacity: 0;
+}
+75% {
+  left: -2304px; opacity: 1;
+}
+95% {
+  left: -2304px; opacity: 1;
+}
+97% {
+  left: -2304px; opacity: 0;
+}
+
+100% {
+  left: 0; opacity: 0;
+}
+}
+h2{
+font-family: sans-serif;
+font-weight: normal;
+}
+
+.malasngoding-slider {
+border: 10px solid #efefef;
+position: relative;
+overflow: hidden;
+background: #efefef;
+}
+
+.malasngoding-slider {
+margin:20px auto;
+width: 768px;
+height: 450px;
+}
+
+.isi-slider img {
+width: 768px;
+height: 450px;
+float: left;
+}
+
+.isi-slider {
+position: absolute;
+width:3900px;
+
+/*pengaturan durasi lama tampil gambar bisa di atur di bawah ini*/
+animation-name:slider;
+animation-duration:16s;
+animation-timing-function: ease-in-out;
+animation-iteration-count:infinite;
+-webkit-animation-name:slider;
+-webkit-animation-duration:16s;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count:infinite;
+-moz-animation-name:slider;
+-moz-animation-duration:16s;
+-moz-animation-timing-function: ease-in-out;
+-moz-animation-iteration-count:infinite;
+-o-animation-name:slider;
+-o-animation-duration:16s;
+-o-animation-timing-function: ease-in-out;
+-o-animation-iteration-count:infinite;
+}
+
+
+/*saat gambar di hover oleh cursor mouse maka berhenti slide*/
+.isi-slider:hover {
+-webkit-animation-play-state:paused;
+-moz-animation-play-state:paused;
+-o-animation-play-state:paused;
+animation-play-state:paused; }
+}
+
+.isi-slider img {
+float: right;
+}
+
+.malasngoding-slider:after {
+font-size: 150px;
+position: absolute;
+z-index: 12;
+color: rgba(255,255,255, 0);
+left: 300px; top: 80px;
+-webkit-transition: 1s all ease-in-out;
+-moz-transition: 1s all ease-in-out;
+transition: 1s all ease-in-out;
+}
+
+.malasngoding-slider:hover:after {
+color: rgba(255,255,255, 0.6);
+}
+
+
+
+@-moz-keyframes slider {
+0% {
+  left: 0; opacity: 0;
+}
+2% {
+  opacity: 1;
+}
+20% {
+  left: 0; opacity: 1;
+}
+21% {
+  opacity: 0;
+}
+24% {
+  opacity: 0;
+}
+25% {
+  left: -768px; opacity: 1;
+}
+45% {
+  left: -768px; opacity: 1;
+}
+46% {
+  opacity: 0;
+}
+48% {
+  opacity: 0;
+}
+50% {
+  left: -1536px; opacity: 1;
+}
+70% {
+  left: -1536px; opacity: 1;
+}
+72% {
+  opacity: 0;
+}
+74% {
+  opacity: 0;
+}
+75% {
+  left: -2304px; opacity: 1;
+}
+95% {
+  left: -2304px; opacity: 1;
+}
+97% {
+  left: -2304px; opacity: 0;
+}
+100% {
+  left: 0; opacity: 0;
+}
+}
+
+@-webkit-keyframes slider {
+0% {
+  left: 0; opacity: 0;
+}
+2% {
+  opacity: 1;
+}
+20% {
+  left: 0; opacity: 1;
+}
+21% {
+  opacity: 0;
+}
+24% {
+  opacity: 0;
+}
+25% {
+  left: -768px; opacity: 1;
+}
+45% {
+  left: -768px; opacity: 1;
+}
+46% {
+  opacity: 0;
+}
+48% {
+  opacity: 0;
+}
+50% {
+  left: -1536px; opacity: 1;
+}
+70% {
+  left: -1536px; opacity: 1;
+}
+72% {
+  opacity: 0;
+}
+74% {
+  opacity: 0;
+}
+75% {
+  left: -2304px; opacity: 1;
+}
+95% {
+  left: -2304px; opacity: 1;
+}
+97% {
+  left: -2304px; opacity: 0;
+}
+100% {
+  left: 0; opacity: 0;
+}
+}
+
+
+@keyframes slider {
+0% {
+  left: 0; opacity: 0;
+}
+2% {
+  opacity: 1;
+}
+20% {
+  left: 0; opacity: 1;
+}
+21% {
+  opacity: 0;
+}
+24% {
+  opacity: 0;
+}
+25% {
+  left: -768px; opacity: 1;
+}
+45% {
+  left: -768px; opacity: 1;
+}
+46% {
+  opacity: 0;
+}
+48% {
+  opacity: 0;
+}
+50% {
+  left: -1536px; opacity: 1;
+}
+70% {
+  left: -1536px; opacity: 1;
+}
+72% {
+  opacity: 0;
+}
+74% {
+  opacity: 0;
+}
+75% {
+  left: -2304px; opacity: 1;
+}
+95% {
+  left: -2304px; opacity: 1;
+}
+97% {
+  left: -2304px; opacity: 0;
+}
+
+100% {
+  left: 0; opacity: 0;
+}
+}
+
+
+
+body{
+  background-image: url(img/pattern.jpg);
+}
+header{
+  z-index: 100;
+  background:rgb(255,255,255);
+  height: 80px;
+  box-shadow: 0 0 10px grey;
+  position: sticky;
+  top: 0;
+}
+
+header #logo{
+ position: absolute;;
+ padding: 10px 0 0 0;
+ left: 30px;
+}
+
+header nav {
+position: relative;
+float: right;
+right: 50px;
+
+}
+
+nav ul a{
+
+  float: left;
+  text-decoration: none;
+  line-height: 80px;
+  padding: 0 20px;
+  color: rgb(0,41,224);
+  font-weight: bold;
+  font-size: 18px;
+  list-style: none;
+}
+
+
+section{
+
+  background-color: white;
+  margin: auto;
+  width: 80%;
+  margin-top: 10px;
+  padding-left:  5px;
+  padding-right:  5px;
+}
+
+section h1{
+  text-align: center;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+
+}
+
+
+
+ </style>
+<html>
+  <head>
+    <!-- <link href="css/style.css" rel="stylesheet" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="img/logo_smk.png" width="70px" />
+      <nav>
+        <ul>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>Profil</li></a>
+          <a href="#"><li>Guru</li></a>
+          <a href="#"><li>Siswa</li></a>
+          <a href="#"><li>Alumni</li></a>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <section>
+<center>
+      <h2>Selamat Datang DI SMK SaberCode<br/> Semangat Pemberlajaran Baru</h2>
+  </center>
+  <div class=malasngoding-slider>
+  <div class=isi-slider>
+    <img src="img/gambar1.jpeg" alt="Gambar 1">
+    <img src="img/gambar2.jpeg" alt="Gambar 2">
+    <img src="img/gambar3.jpeg" alt="Gambar 3">
+  </div>
+  </div>
+
+      <h1>Featured Posts</h1>
+      <div id="article-list">
+        <article>
+          <a href=""><h3>Lorem Post 1</h3></a>
+          <p>
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
+          </p>
+        </article>
+        <article>
+          <a href=""><h3>Lorem Post 2</h3></a>
+          <p>
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
+          </p>
+        </article>
+        <article>
+          <a href=""><h3>Lorem Post 3</h3></a>
+          <p>
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
+          </p>
+        </article>
+        <article>
+          <a href=""><h3>Lorem Post 4</h3></a>
+          <p>
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
+          </p>
+        </article>
+        <article>
+          <a href=""><h3>Lorem Post 5</h3></a>
+          <p>
+            Lorem Ipsum Dolor Sit Amet, mea te verear signiferumque, per illum labores ne. Blandit omnesque scripserit pri ex, et pri dicant eirmod deserunt. Aeque perpetua ea nec. Sit erant patrioque delicatissimi ut. Et sea quem sint, nam in minim voluptatibus. Etiam placerat eam in.
+          </p>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <h5>copyright &copy; Sekolah Menengah Progate</h5>
+    </footer>
+  </body>
+</html>
